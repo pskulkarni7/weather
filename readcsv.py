@@ -1,7 +1,7 @@
 import csv
 # Read the CSV file and print its contents
 
-with open('weather.csv', 'r') as file:
+with open('temperatures.csv', 'r') as file:
     reader = csv.reader(file)
     data = list(reader)
     for line in data:   
