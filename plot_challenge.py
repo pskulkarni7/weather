@@ -6,7 +6,7 @@ co2_emissions = [25, 30, 35, 40, 45]  # in billions of metric tons
 
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 6))
 ax1.plot(years, temp_anomalies, marker='o', linestyle='-', color='b')
-ax2.bar(years, co2_emissions, color='r')
+ax2.bar(years, co2_emissions, color='r', width=0.8)
 ax1.set_title('Global Temperature Anomalies Over Years')
 ax2.set_title('Global CO2 Emissions Over Years')        
 ax1.set_xlabel('Year')
